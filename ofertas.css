@@ -20,7 +20,7 @@ li {
 }
 a {
   text-decoration: none;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
@@ -30,7 +30,120 @@ a {
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
+/*body ofertas*/
+body {
+  font-family: "Helvetica", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.contenedor {
+  display: block;
+  max-width: 100%;
+  height: 80dvh;
+  margin-top: 0%;
+  background-image: url(oportunidades\ nissan.jpg);
+  background-repeat: no-repeat;
+  background-size: 150dvh;
+  background-position: center;
+}
+.contenedor .wrap {
+  max-width: 1000px;
+  margin: 80px;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.contenedor .wrap .box {
+  flex-basis: 50%;
+  color: #cf1f1f;
+  text-align: left;
+  align-self: center;
+}
+.contenedor .wrap .box span {
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+.contenedor .wrap .box h1 {
+  font-size: 32px;
+  line-height: 0.9;
+  padding-bottom: 10px;
+}
+.contenedor .wrap .box p {
+  font-size: 15px;
+  line-height: 1.2;
+}
+.contenedor .wrap .box .botones {
+  display: flex;
+  margin-top: 30px;
+  flex-flow: row wrap;
+}
+.contenedor .wrap .box .botones .btn1 a {
+  color: #ffffff;
+}
+.contenedor .wrap .box .botones .btn1 {
+  flex-basis: 30%;
+  background-color: #cf1f1f;
+  border: solid 2px;
+  border-radius: 20px;
+  padding: 10px 30px 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+}
 
+/*body tarjetas*/
+.contenedor2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 420px;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  font-family: sans-serif;
+}
+.titulo {
+  font-size: 24px;
+  padding: 10px 10px 0 10px;
+}
+.cuerpo {
+  padding: 10px;
+  flex: 1 1 100%;
+}
+.cuerpo img {
+  width: 405px;
+}
+.cuerpo p {
+  display: flex;
+  text-align: center;
+  text-size-adjust: 420px;
+}
+.pie {
+  background: #cf1f1f;
+  border-radius: 0 0 15px 15px;
+  padding: 10px;
+  text-align: center;
+}
+.pie a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.pie a:after {
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  content: "";
+}
 /*Pie de Pagina*/
 .pie-pagina {
   width: 100%;

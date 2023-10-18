@@ -41,7 +41,7 @@ body {
   display: flex;
   max-width: 100%;
   height: 80dvh;
-  background-image: url(frontier\ hero.jpg);
+  background-image: url(img/frontier\ hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;

@@ -18,6 +18,11 @@ ul {
 }
 li {
   list-style: none;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+li:hover {
+  transform: scale(0.9);
 }
 a {
   text-decoration: none;

@@ -107,6 +107,11 @@ body {
   border: 1px solid lightgray;
   border-radius: 15px;
   font-family: sans-serif;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.tarjeta:hover {
+  transform: scale(0.9);
 }
 .titulo {
   font-size: 24px;

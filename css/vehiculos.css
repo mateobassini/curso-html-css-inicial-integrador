@@ -11,7 +11,10 @@ nav {
   align-items: center;
   padding: 1rem;
 }
-
+nav h2 {
+  display: flex;
+  align-items: center;
+}
 ul {
   display: flex;
   gap: 20px;

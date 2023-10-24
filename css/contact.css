@@ -177,7 +177,7 @@ p {
   color: #000000;
   margin-bottom: 10px;
 }
-.pie-pagina .grupo-1 .red-social i {
+.pie-pagina .grupo-1 .red-social a {
   display: inline-block;
   text-decoration: none;
   width: 45px;
@@ -190,11 +190,11 @@ p {
   transition: all 300ms ease;
 }
 
-.pie-pagina .grupo-1 .red-social i img {
+.pie-pagina .grupo-1 .red-social a img {
   width: 45px;
 }
 
-.pie-pagina .grupo-1 .red-social i:hover {
+.pie-pagina .grupo-1 .red-social a:hover {
   color: aqua;
 }
 .pie-pagina .grupo-2 {

@@ -48,11 +48,11 @@ body {
 .contenedor {
   display: block;
   max-width: 100%;
-  height: 80dvh;
+  height: 100dvh;
   margin-top: 0%;
   background-image: url(../img/oportunidades\ nissan.jpg);
   background-repeat: no-repeat;
-  background-size: 150dvh;
+  background-size: 100%;
   background-position: center;
 }
 .contenedor .wrap {
@@ -61,7 +61,7 @@ body {
   height: 100%;
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: initial;
 }
 .contenedor .wrap .box {
   flex-basis: 50%;
@@ -163,6 +163,7 @@ body {
 .pie-pagina {
   width: 100%;
   background-color: #164676;
+  background-size: 100%;
 }
 .pie-pagina .grupo-1 {
   width: 100%;

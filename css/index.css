@@ -52,8 +52,8 @@ body {
   height: 80dvh;
   background-image: url(../img/frontier\ hero.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left;
+  background-size: 100%;
+  background-position: initial;
 }
 .contenedor .wrap {
   max-width: 1000px;

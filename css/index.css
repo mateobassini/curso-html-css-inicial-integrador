@@ -11,7 +11,7 @@ body {
   background-image: url(../img/frontier\ hero.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: initial;
+  background-position: center;
 }
 .contenedor .wrap {
   max-width: 1000px;

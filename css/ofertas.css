@@ -65,13 +65,12 @@ body {
   .contenedor {
     display: block;
     max-width: 100%;
-    height: 60dvh;
+    height: 40dvh;
     margin-top: 0%;
     background-image: url(../img/oportunidades\ nissan.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: center;
-    background-position-y: initial;
+    background-position: initial;
   }
   .contenedor .wrap .box span {
     display: none;

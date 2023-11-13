@@ -59,6 +59,43 @@ body {
   text-decoration: none;
   color: #000;
 }
+
+@media screen and (max-width: 800px) {
+  .contenedor {
+    display: flex;
+    max-width: 100%;
+    background-image: url(../img/frontierheromobile.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: initial;
+  }
+  .contenedor .wrap .box span {
+    display: none;
+  }
+  .contenedor .wrap .box h1 {
+    display: none;
+  }
+  .contenedor .wrap .box p {
+    display: none;
+  }
+  .contenedor .wrap .box .botones .btn1 a {
+    color: #ffffff;
+    position: absolute;
+    top: 10px;
+  }
+  .contenedor .wrap .box .botones .btn1 {
+    flex-basis: 30%;
+    background-color: #164676;
+    border: solid 2px;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    position: absolute;
+    top: 400px;
+  }
+}
 /*body tarjetas*/
 .contenedor2 {
   display: flex;

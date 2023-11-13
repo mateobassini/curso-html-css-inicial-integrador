@@ -61,7 +61,7 @@ body {
   color: #000;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
   .contenedor {
     display: block;
     max-width: 100%;

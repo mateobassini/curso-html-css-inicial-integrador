@@ -61,10 +61,23 @@ body {
   color: #000;
 }
 
+@media screen and (max-width: 900px) {
+  .contenedor {
+    display: block;
+    max-width: 100%;
+    height: 100dvh;
+    margin-top: 0%;
+    background-image: url(../img/oportunidades\ nissan.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+  }
+}
 /*body tarjetas*/
 .contenedor2 {
   display: flex;
   justify-content: center;
+  padding-inline-start: 30px;
   flex-wrap: wrap;
   gap: 16px;
 }

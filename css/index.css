@@ -101,6 +101,7 @@ body {
 .contenedor2 {
   display: flex;
   justify-content: center;
+  padding-inline-start: 5px;
   flex-wrap: wrap;
   gap: 16px;
 }
@@ -109,7 +110,6 @@ body {
   flex-direction: column;
   justify-content: space-between;
   width: 420px;
-  padding-inline-start: 10px;
   border: 1px solid lightgray;
   border-radius: 15px;
   font-family: sans-serif;

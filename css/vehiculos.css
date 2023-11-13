@@ -16,7 +16,6 @@
   font-family: sans-serif;
   cursor: pointer;
   transition: all 0.4s;
-  margin: 5px;
 }
 .tarjeta:hover {
   transform: scale(0.9);

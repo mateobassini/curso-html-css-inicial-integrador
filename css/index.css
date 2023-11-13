@@ -101,7 +101,7 @@ body {
 .contenedor2 {
   display: flex;
   justify-content: center;
-  padding-inline-start: 50px;
+  padding-inline-start: 30px;
   flex-wrap: wrap;
   gap: 16px;
 }

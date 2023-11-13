@@ -67,7 +67,7 @@ body {
     background-image: url(../img/frontierheromobile.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: initial;
+    background-position: center;
   }
   .contenedor .wrap .box span {
     display: none;

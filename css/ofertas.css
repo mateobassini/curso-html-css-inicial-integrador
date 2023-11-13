@@ -71,6 +71,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
+    background-position-y: initial;
   }
   .contenedor .wrap .box span {
     display: none;
@@ -79,9 +80,6 @@ body {
     display: none;
   }
   .contenedor .wrap .box p {
-    display: none;
-  }
-  .contenedor .wrap .box .botones {
     display: none;
   }
 }

@@ -17,24 +17,30 @@
 <body>
 
 	<header>
-		<nav class="navbar navbar-expand-lg bg-body-tertiary">
+		<nav class="navbar bg-body-tertiary fixed-top">
 			<div class="container-fluid">
-			  <a class="navbar-brand" href="index.html"><img src="img/Nissan_2020_logo.svg.png" alt="nissan" width="70px"></a>
-			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<a class="navbar-brand" href="index.html"><img src="img/Nissan_2020_logo.svg.png" alt="nissan" width="70px"></a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			  </button>
-			  <div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="nav nav-pills nav-fill gap-2 p-1 small custom-navbar rounded-5 shadow-sm ms-auto mb-2 mb-lg-0" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
-					<li class="nav-item" role="presentation">
-					  <button class="nav-link rounded-5" id="vehiculos" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"><a href="vehiculos.html" style="text-decoration: none; color: rgb(0, 0, 0);"><b>Vehiculos</b></a></button>
+			  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+				<div class="offcanvas-header">
+				  <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><b>Nissan</b></h5>
+				  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+				</div>
+				<div class="offcanvas-body">
+				  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+					<li class="nav-item">
+						<a href="vehiculos.html" style="text-decoration: none; color: rgb(0, 0, 0);"><b>Vehiculos</b></a>
 					</li>
-					<li class="nav-item" role="presentation">
-						<button class="nav-link rounded-5" id="cotizaciones" data-bs-toggle="tab" type="button" role="tab" aria-selected="true"><a href="ofertas.html" style="text-decoration: none; color: rgb(0, 0, 0);"><b>Cotizacion</b></a></button>
+					<li class="nav-item">
+						<a href="ofertas.html" style="text-decoration: none; color: rgb(0, 0, 0);"><b>Cotizacion</b></a>
 					</li>
-					<li class="nav-item" role="presentation">
-						<button class="nav-link rounded-5" id="contacto" data-bs-toggle="tab" type="button" role="tab" aria-selected="true"><a href="contact.html" style="text-decoration: none; color: rgb(0, 0, 0);"><b>Contacto</b></a></button>
-					</li>
+					<li class="nav-item">
+						<a href="contact.html" style="text-decoration: none; color: rgb(0, 0, 0);"><b>Contacto</b></a>
+					  </li>
 				  </ul>
+				</div>
 			  </div>
 			</div>
 		  </nav>
